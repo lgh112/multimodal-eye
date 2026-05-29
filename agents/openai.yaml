@@ -1,0 +1,7 @@
+interface:
+  display_name: "Multimodal Eye"
+  short_description: "Adds vision to text-only models."
+  default_prompt: "Use $multimodal-eye to describe attached images before answering with a text-only model."
+
+policy:
+  allow_implicit_invocation: true

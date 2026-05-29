@@ -1,0 +1,12 @@
+{
+  "provider": "openai-compatible",
+  "base_url": "https://api.openai.com/v1",
+  "model": "gpt-4.1-mini",
+  "api_key_env": "OPENAI_API_KEY",
+  "temperature": 0,
+  "max_tokens": 1200,
+  "timeout_seconds": 60,
+  "detail": "auto",
+  "system_prompt": "You are a careful visual description assistant.",
+  "default_prompt": "Describe the image for a text-only model. Include visible text, objects, layout, relationships, and uncertainty. Do not infer facts that are not visible."
+}
